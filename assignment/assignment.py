@@ -1,3 +1,20 @@
+import assignment.subdir1.subdir2.file3
+
+
+import assignment.subdir1.subdir2.file3 as ssf3
+
+
+from assignment.subdir1.subdir2.file3 import divide
+
+
+from assignment.subdir3.new_module import oh_my
+
+if __name__ == "__main__":
+    
+    print("Access via namespace:", assignment.subdir1.subdir2.file3.add(2, 3))
+    print("Access via ssf3 alias:", ssf3.add(10, 5))
+    print("Divide via from-import:", divide(10, 2))
+    print("From new_module:", oh_my)
 # create a new subdirectory `assignment.subdir1.subdir2.file3.py` and move this 
 # code into it.
 
