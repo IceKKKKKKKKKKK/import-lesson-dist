@@ -41,3 +41,6 @@ class TestImport(unittest.TestCase):
     @weight(1)
     def test_import_5(self):
         self.assertEqual(oh_my, "Oh my!")
+
+if __name__ == "__main__":
+    unittest.main()

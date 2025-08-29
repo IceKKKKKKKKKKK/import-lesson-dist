@@ -1,13 +1,13 @@
-import assignment.subdir1.subdir2.file3
+import subdir1.subdir2.file3
 
 
-import assignment.subdir1.subdir2.file3 as ssf3
+import subdir1.subdir2.file3 as ssf3
 
 
-from assignment.subdir1.subdir2.file3 import divide
+from subdir1.subdir2.file3 import divide
 
 
-from assignment.subdir3.new_module import oh_my
+from subdir3.new_module import oh_my
 
 # if __name__ == "__main__":
     
